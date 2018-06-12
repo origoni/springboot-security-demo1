@@ -20,9 +20,7 @@ public class SpringbootSecurityDemo1Application {
     @RequestMapping("/")
     public Principal viewPrincipal(Principal principal) {
 
-        log.warn("principal.getName()={}", principal.getName());
-        log.warn("principal={}", principal);
-
+        log.debug("principal={}", principal);
         return principal;
     }
 }

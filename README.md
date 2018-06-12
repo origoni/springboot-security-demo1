@@ -5,14 +5,14 @@ springboot-security-demo1
 start
 
 ## Reference
-
-http://spring.io/guides/gs/securing-web/
-
-http://spring.io/guides/topicals/spring-security-architecture/
+- http://spring.io/guides/gs/securing-web/
+- http://spring.io/guides/topicals/spring-security-architecture/
+- https://docs.spring.io/spring-security/site/docs/current/guides/html5/helloworld-boot.html
+- https://docs.spring.io/spring-security/site/docs/current/reference/htmlsingle/#core-services-password-encoding
 
 ## Quick Start
-
-- JDK 1.8
+Pre Installed
+- JDK 1.8 (or Java 10)
 - Maven 3.5
 - Git
 
@@ -27,8 +27,7 @@ mvn spring-boot:run
 http://localhost:9091
 
 - id = user
-- Look at the password on the console! (Using generated security password: xxx...)
-
+- pw = password
 
 ### Tested
 - STS(Eclipse) 3.8.4
